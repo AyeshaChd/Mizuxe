@@ -1,0 +1,92 @@
+:root {
+  --sea-green: #3292a6;
+  --blue: #007bff;
+}
+.blue-color {
+  color: #007bff;
+}
+
+.m-logo {
+  width: 50px;
+}
+.navbar {
+  opacity: 0.8;
+}
+.nav-link {
+  font-size: 1.4rem;
+}
+ul {
+  margin-left: auto;
+}
+li a:hover {
+  color: black !important;
+}
+
+/* .active {
+  color: black !important;
+  /* font-size: 1.4rem;
+  text-decoration-line: none;
+  align-items: center; */
+
+#Home {
+  background: url(../IMAGES/mountain.png) no-repeat center center/cover;
+  height: 90vh;
+  margin-top: 108px;
+}
+.dark-overlay {
+  height: 100%;
+  background-color: var(--sea-green);
+  opacity: 0.9;
+}
+.book-poster {
+  height: 90vh;
+}
+.btn-color {
+  background-color: var(--sea-green);
+  color: antiquewhite;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+.btn-color:hover {
+  background: var(--blue);
+  color: #fff;
+}
+.cards-border {
+  border: 1px var(--blue) solid;
+  border-radius: 5px;
+}
+
+.para2 {
+  padding: 0px 10vw;
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+}
+.child-div {
+  border-bottom: 1px var(--sea-green) solid;
+  margin-top: 5px;
+  width: 40%;
+  margin-left: 22.5vw;
+  position: absolute;
+}
+.img-mine {
+  margin-top: -50px;
+}
+.author-card:hover {
+  background-color: var(--sea-green);
+  h3 {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+}
+/* .m-negative {
+  margin-top: -20px;
+} */
+footer {
+  background-color: var(--sea-green);
+  color: #fff;
+}
